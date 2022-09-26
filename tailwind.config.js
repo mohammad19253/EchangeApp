@@ -12,18 +12,19 @@ module.exports = {
       xl: '1440px',
     },
     colors: {
-      'blue': '#1fb6ff',
-      'purple': '#7e5bef',
-      'pink': '#ff49db',
-      'orange': '#ff7849',
-      'green': '#13ce66',
-      'yellow': '#ffc82c',
-      'gray-dark': '#273444',
-      'gray': '#8492a6',
-      'gray-light': '#d3dce6',
-       'primary': '#343434',
+      'black': '#292929',
+      'primary-gray': '#373636',
+      'secondary-gray': '#404040',
+      'primary':'#1A5B79',
+      'primary-blue':'#0f7bae',
+      'secondary-blue':'#1A5B79',
+      'third-blue':'#30383c',
+      'primary-green':'#57c180',
+      'secondary-green':'#417155',
+      'primary-red':'#b12b34',
+      'secondary-red':'#683033',
+
     },
-    
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
@@ -38,5 +39,5 @@ module.exports = {
       }
     }
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
