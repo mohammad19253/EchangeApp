@@ -44,12 +44,12 @@ const  Header = ()=>{
               <li className='m-2 p-3 rounded-lg bg-secondary-blue'> <BsBell /></li>
               <li className='rounded-lg p-2 bg-third-blue flex justify-center items-center'> 
                 <div className=' p-3 rounded-lg bg-secondary-blue flex'><AiOutlineUser /></div>
-                <div class="dropdown dropdown-right">
+                <div className="dropdown dropdown-right">
                 <label tabindex="0" className='flex justify-center items-center'>
                   <span className='mx-2'>Mohammad...</span>
                   <IoIosArrowDown /> 
                 </label>
-                <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                <ul tabindex="0" className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
                   <li><a>Item 1</a></li>
                   <li><a>Item 2</a></li>
                 </ul>

@@ -1,0 +1,22 @@
+.fear_gread{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:210px;
+}
+
+.chart{
+    width: 200px;
+    height:160px;
+    position: absolute;
+    bottom: 10px;
+    z-index: 2;
+}
+.arrow_container{
+    position: absolute;
+    height: 200px;
+    width: 240px;
+    z-index: 100;
+}
